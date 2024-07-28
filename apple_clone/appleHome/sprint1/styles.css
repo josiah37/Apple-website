@@ -1,0 +1,373 @@
+/* general setup */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    /* Remove underline from all links */
+    color: #06c;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+
+/* styling header  */
+
+header {
+    background-color: black;
+    padding: 14px;
+}
+
+nav a {
+    color: #fff;
+    opacity: 0.7;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+nav {
+    /* background: skyblue; */
+    width: 980px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li a {
+    /* here you can also say:
+    - nav ul li a 
+    - header nav ul li a 
+    - header a ....  they all refer the same thing
+    */
+    /* text-decoration: none; */
+}
+
+
+/* Utility classes */
+
+.logo-link img,
+.search-link img,
+.cart-link img {
+    display: block;
+    height: 23px;
+    /* padding: 12px 0px 0px; */
+}
+
+
+/*                ### Footer styling             */
+
+
+/* # footer general setup  */
+
+.footer {
+    /* background-color: rgba(250, 235, 212, 0.824); */
+    padding: 1.2em 6.9em;
+    color: #1d1d1f;
+    background-color: #f5f5f7;
+}
+
+
+/* footer links  */
+
+footer a,
+.footer-upper-note {
+    color: #515154;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.footer-upper-note {
+    color: #86868b
+}
+
+.footer-upper-note a {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* first link section of the footer  */
+
+.main-footer-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0.66em;
+}
+
+.footer-links-column {
+    padding: 0.33em;
+    /* margin: 0 15px; */
+}
+
+.footer-links-column ul li {
+    /* background-color: blueviolet; */
+    text-decoration: none;
+    list-style-type: none;
+    /* space btween the links  */
+    margin: 0.33em auto;
+    padding-bottom: 0.33em;
+}
+
+.footer-links-column ul {
+    /* background-color: aquamarine; */
+    /* space btween between banch of title and links   */
+    margin-bottom: 1.33em;
+}
+
+.footer-links-column h3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/*           2nd link section of z footer       */
+
+.footer-last-para {
+    margin-bottom: 0.66em;
+    a {
+        text-decoration: underline;
+        color: #06c;
+    }
+}
+
+.end-notes,
+.linkss {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-note .linkss {
+    margin: 0 0.66em;
+    padding: 0.66em;
+    flex: 1;
+}
+
+.linkss li {
+    /* 
+    or  .end-notes .linkss li     
+    .linkss ul li -- wont work in this particular case
+    becasue of the html structure. (b/c i denfined the class on the ul it self )
+    */
+    list-style-type: none;
+    margin: auto 0.33em;
+    /* background-color: aquamarine;  just to see which it will be selecting*/
+}
+
+footer img {
+    height: 1.07em;
+}
+
+
+/* .footer-upper-note hr,
+.footer-last-para hr {
+    background-color: brown; /* Line color */
+
+
+/* height: 2px; Thickness of the line */
+
+
+/* margin: 20px 0; Space above and below the line */
+
+
+/* }  */
+
+
+/*              body          */
+
+section {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    text-align: center;
+    padding: 10px;
+}
+
+section ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 400;
+}
+
+section ul a {
+    margin-right: 1.5em;
+    text
+    /* padding: 1px; */
+}
+
+section ul a:hover {
+    color: black;
+}
+
+section ul code {
+    font-weight: 900;
+    font-size: x-large;
+    color: rgb(35, 82, 149);
+}
+
+
+/* this is just for the trial of the ">" arrow  */
+
+.right-arrow {
+    color: rgb(35, 82, 149);
+}
+
+
+/* 2nd section */
+
+
+/* .iPhone-11-Pro { */
+
+
+/* background-color: aqua; */
+
+
+/* }
+
+.iPhone-11-Pro img {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 30em;
+}
+
+.iPhone-11-Pro-note {
+    position: absolute; */
+
+
+/* top: 50%; */
+
+
+/* left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f5f5f7;
+    z-index: 19;
+    margin-top: 20%;
+} */
+
+.iPhone-11-Pro {
+    background-image: url(../../resources/images/home/iphone11-pro-bg.jpg);
+    background-position: center;
+    color: #fff;
+    height: 580px;
+    text-align: center;
+    padding: 65px 28px;
+    background-repeat: no-repeat;
+}
+
+.on-background h1 {
+    font-weight: 600;
+    font-size: 3.8em;
+    background: #dc2c2c;
+}
+
+.on-background .discription {
+    padding: 10px 0px;
+    font-size: 1.73em;
+}
+
+.on-background .price {
+    color: #86868b;
+    font-size: 0.85;
+}
+
+.iPhone-11 {
+    background-image: url(../../resources/images/home/iphone11-bg.jpg);
+    background-position: center;
+    color: black;
+    height: 580px;
+    text-align: center;
+    padding: 65px 28px;
+    background-repeat: no-repeat;
+}
+
+
+/* side highlights */
+
+.left-heighlight {
+    /* background-color: #dc2c2c; */
+    background-image: url(../../resources/images/home/watch-series-5.jpg);
+    background-position: center;
+    color: black;
+    height: 580px;
+    text-align: center;
+    padding: 95px 28px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.side-heighlight1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .right-heighlight {}
+
+.side-heighlight1 .logo {
+    padding-bottom: 0.66em;
+}
+*/
+
+.side-heighlight1 p {
+    padding: 0.66em 1.3em;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+
+.left-heighlight {
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+
+.right-heighlight {
+    /* background-color: #dc2c2c; */
+    background-image: url(../../resources/images/home/apple-card.jpg);
+    background-position: center;
+    color: black;
+    height: 580px;
+    text-align: center;
+    padding: 95px 28px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.side-heighlight2 {
+    background-image: url(../../resources/images/home/air-pods.jpg);
+    background-position: center;
+    color: black;
+    height: 580px;
+    text-align: center;
+    padding: 95px 28px;
+    background-repeat: no-repeat;
+}
