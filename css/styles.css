@@ -219,7 +219,7 @@ section ul code:hover {
 }
 
 .iPhone-11-Pro {
-    background-image: url(../../resources/images/home/iphone11-pro-bg.jpg);
+    background-image: url(../resources/images/home/iphone11-pro-bg.jpg);
     background-position: center;
     color: #fff;
     height: 580px;
@@ -245,7 +245,7 @@ section ul code:hover {
 }
 
 .iPhone-11 {
-    background-image: url(../../resources/images/home/iphone11-bg.jpg);
+    background-image: url(../resources/images/home/iphone11-bg.jpg);
     background-position: center;
     color: black;
     height: 580px;
@@ -281,21 +281,21 @@ section ul code:hover {
 }
 
 .side-heighlight1 .left-heighlight {
-    background-image: url(../../resources/images/home/watch-series-5.jpg);
+    background-image: url(../resources/images/home/watch-series-5.jpg);
 }
 
 .side-heighlight1 .right-heighlight {
     /* background-color: #dc2c2c; */
-    background-image: url(../../resources/images/home/apple-card.jpg);
+    background-image: url(../resources/images/home/apple-card.jpg);
 }
 
 .side-heighlight2 {
     .left-heighlight {
-        background-image: url(../../resources/images/home/apple-tv-background.jpg);
+        background-image: url(../resources/images/home/apple-tv-background.jpg);
         margin-bottom: 10%;
     }
     .right-heighlight {
-        background-image: url(../../resources/images/home/air-pods.jpg);
+        background-image: url(../resources/images/home/air-pods.jpg);
         /* padding-top: 10%; */
         /* margin-top: 25%; */
         background-color: #000000;
@@ -327,14 +327,14 @@ section ul code:hover {
 }
 
 .side-heighlight3 .left-heighlight {
-    background-image: url(../../resources/images/home/macbook-pro.jpg);
+    background-image: url(../resources/images/home/macbook-pro.jpg);
     background-color: #f5f5f78c;
     /* padding-top: 5%; */
     background-position: bottom;
 }
 
 .side-heighlight3 .right-heighlight {
-    background-image: url(../../resources/images/home/new-ipad.jpg);
+    background-image: url(../resources/images/home/new-ipad.jpg);
 }
 
 .side-heighlight3 {
