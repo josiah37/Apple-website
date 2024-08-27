@@ -23,6 +23,7 @@ body {
     font-weight: 200;
 }
 
+
 /* styling header  */
 
 header {
@@ -50,6 +51,7 @@ nav ul {
     justify-content: space-between;
 }
 
+
 /* Utility classes */
 
 .logo-link img,
@@ -59,7 +61,6 @@ nav ul {
     height: 23px;
     /* padding: 12px 0px 0px; */
 }
-
 
 
 /*                ### Footer styling             */
@@ -173,9 +174,6 @@ footer img {
 }
 
 
-
-
-
 /*                                body                         */
 
 section {
@@ -233,6 +231,11 @@ section ul code:hover {
     /* backgroud: #dc2c2c; */
 }
 
+h1 {
+    font-weight: 600;
+    font-size: 2.8em;
+}
+
 .on-background .discription {
     padding: 10px 0px;
     font-size: 1.73em;
@@ -276,7 +279,9 @@ section ul code:hover {
 
 .content {
     margin-bottom: 10.5em;
-   
+    p {
+        margin: 1rem 0;
+    }
 }
 
 .side-heighlight1 .left-heighlight {
@@ -306,15 +311,26 @@ section ul code:hover {
     }
 }
 
+.tv-logo {
+    /* display: block; */
+    text-align: center;
+    justify-content: center;
+    padding-left: 20%;
+}
+
 .servant-logo {
     margin-top: 25%;
 }
 
 .watch-more-wrapper {
-    margin-top: 25%;
+    margin-top: 35%;
     a {
         text-decoration: none;
-        color: rgba(11, 0, 128, 0.644)
+        color: rgba(11, 0, 128, 0.644);
+        font-weight: bolder;
+    }
+    a:hover{
+        color: rgba(211, 18, 18, 0.867);
     }
 }
 
@@ -339,9 +355,12 @@ section ul code:hover {
 .side-heighlight3 {
     p {
         font-weight: 400;
+        /* margin-top: -2%; */
+    }
+    .content {
+        /* padding-bottom: 5%; */
     }
 }
-
 
 @media(min-width: 740px) {
     .left-heighlight,
@@ -352,12 +371,21 @@ section ul code:hover {
         width: 48.5%;
         margin: 1% 0.5% 0% 1%;
         padding-top: 5%;
-        padding-bottom: 40%;
+        /* padding-bottom: 40%; */
     }
     .side2side {
         display: flex;
         justify-content: center;
         /* setting the hight is mandatory fot it to be visible since we inserted it as a bg img */
         height: 580px;
+    }
+    .tv-logo {
+        padding-left: 15%;
+    
+    }
+    .side-heighlight3 {
+        /* padding-bottom: 20%; */
+        margin-bottom: 10%;
+        /* background-color: yellow; */
     }
 }
